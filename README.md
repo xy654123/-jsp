@@ -33,4 +33,6 @@ join파일에 마지막 코드이다 form문안에 테이블문을 넣어서 그
 게된다 하지만 첫번째줄에있는 값은 int 값으로 받아줘야되기 때문에 Intger.parseInt로 변화하여 값을 넣어준다 그다음 마지막 줄 코드를 실행시켜 DB를 없데이트 시켜준다<br>
 # 테이블 값 변화
 ![image](https://user-images.githubusercontent.com/96267331/186092000-751a7831-f00e-45b3-9ec1-1d74e22962a0.png)<br>
-![image](https://user-images.githubusercontent.com/96267331/186092535-defb3f82-fe5e-4bf3-9586-c3c44f2e0eba.png)
+![image](https://user-images.githubusercontent.com/96267331/186094092-d5c923ee-4cf0-42b8-874c-0de368c87acb.png)<br>
+![image](https://user-images.githubusercontent.com/96267331/186094223-23b32810-d3db-455d-9beb-c389d4d6aec8.png)
+
