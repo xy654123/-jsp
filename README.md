@@ -29,4 +29,5 @@ join파일에 마지막 코드이다 form문안에 테이블문을 넣어서 그
 # join_p 
 ![image](https://user-images.githubusercontent.com/96267331/186086623-a20be3b3-76ca-4eb4-a3d1-08cfe5cc0299.png)<br>
 다음 코드는 join에서 form 문에 있던 action에 사용되는 코드이다 첫번째 줄에있는 코드는 UTF-8로 변환해주는 코드이며 한글 화면이 꺠지는 것을 방지해준다
-
+문자열인 sql 쿼리문을 저장시켜주고 conn를 통해 DB 자바와 연결시켜 준다 pstmt를 통해 쿼리문을 DB로 전달시켜 준다 그다음줄부터는 sql 문자열에서 ?에 값을 넣주는것인데 모두 문자열로 바뀌
+게된다 하지만 첫번째줄에있는 값은 int 값으로 받아줘야되기 때문에 Intger.parseInt로 변화하여 값을 넣어준다 그다음 마지막 줄 코드를 실행시켜 DB를 없데이트 시켜준다
