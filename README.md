@@ -1,6 +1,6 @@
 # DB 연결
 ![image](https://user-images.githubusercontent.com/96267331/186085054-c46a4939-53c2-4028-b85c-f88637f3381a.png)<br>\
-다음코드는 DB와 자바파일을 연결시켜주는 코드인데 문자열의 id pw url 값을 적어주고 try catch 문을 이용하여 conn을 이용해 연결해준다
+다음코드는 DB와 자바파일을 연결시켜주는 코드인데 문자열의 id pw url 값을 적어주고 try catch 문을 이용하여 예외처리를 하게된다 예외처리는 예외상황일때 오류로 뜨는것을 막아준다Connection객체를 이용하여 DB와 연결 시켜 준다
 
 # 테이블
 ![image](https://user-images.githubusercontent.com/96267331/186085513-12914ea8-d279-44c2-a6dd-2b9dcf675e3a.png)
