@@ -27,10 +27,10 @@ sql 이라는 문자열에 쿼리문을 작성하여 넣어주고 conn을 통해
 join파일에 마지막 코드이다 form문안에 테이블문을 넣어서 그 테이블속에 input값을넣어줘 화면의 모양을 만들어주는 코드이다
 
 # join_p 
-![image](https://user-images.githubusercontent.com/96267331/186086623-a20be3b3-76ca-4eb4-a3d1-08cfe5cc0299.png)<br>
+![image](https://user-images.githubusercontent.com/96267331/186321591-23e1924a-f426-4d47-aa88-67df41184b8a.png)<br>
 다음 코드는 join에서 form 문에 있던 action에 사용되는 코드이다 첫번째 줄에있는 코드는 UTF-8로 변환해주는 코드이며 한글 화면이 꺠지는 것을 방지해준다
 문자열인 sql 쿼리문을 저장시켜주고 conn를 통해 DB 자바와 연결시켜 준다 pstmt를 통해 쿼리문을 DB로 전달시켜 준다 그다음줄부터는 sql 문자열에서 ?에 값을 넣주는것인데 모두 문자열로 바뀌
-게된다 하지만 첫번째줄에있는 값은 int 값으로 받아줘야되기 때문에 Intger.parseInt로 변화하여 값을 넣어준다 그다음 마지막 줄 코드를 실행시켜 DB를 없데이트 시켜준다<br>
+게된다 하지만 첫번째줄에있는 값은 int 값으로 받아줘야되기 때문에 Intger.parseInt로 변화하여 값을 넣어준다 그다음 마지막 줄 코드를 실행시켜 DB를 업데이트 시켜준다<br>
 # 테이블 값 변화
 ![image](https://user-images.githubusercontent.com/96267331/186092000-751a7831-f00e-45b3-9ec1-1d74e22962a0.png)<br>
 ![image](https://user-images.githubusercontent.com/96267331/186094092-d5c923ee-4cf0-42b8-874c-0de368c87acb.png)<br>
