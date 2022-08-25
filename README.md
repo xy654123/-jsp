@@ -35,3 +35,19 @@ join파일에 마지막 코드이다 form문안에 테이블문을 넣어서 그
 ![image](https://user-images.githubusercontent.com/96267331/186094092-d5c923ee-4cf0-42b8-874c-0de368c87acb.png)<br>
 ![image](https://user-images.githubusercontent.com/96267331/186094223-23b32810-d3db-455d-9beb-c389d4d6aec8.png)
 
+# member_list 화면
+![image](https://user-images.githubusercontent.com/96267331/186558603-17d75313-e10f-4b14-80ad-d331961b47a6.png)
+
+# member_list 코드 설명
+![image](https://user-images.githubusercontent.com/96267331/186558765-78117691-0c12-416b-b90a-c8a9cd949c4a.png)<br>
+이 코드는 문자열인 sql 쿼리문을 작성해주는것이다 쿼리문의 내용은 member_tbl_02를 오름차순으로 정렬을 하고 테이블에 custno, custname, phone, address, joindate는 
+검색해주는데 yyyy-mm-dd 형식으로 to_char을 이용해 바꾸어 주면 컬럼명이 이상하게 바뀌었기 때문에
+joindate 라는 별칭으로 바꾸어준다 그다음 grade 검색할때는 case 통해 조건을걸고 그 조건의 맞을때 나올값을
+설명해준는 것이다 grade 가 A 일때는 VIP B 일때는 일반 나머지는 직원으로 나오게 설명한뒤 end를 써
+작업을 끝내주고 grade 라는 별칭을 준다 그리고 city를 마지막으로 검색해주는 쿼리문을 작성한것이다<br>
+![image](https://user-images.githubusercontent.com/96267331/186561419-224acf12-1bcb-4bb8-a58b-031e12250806.png)<br>
+Connection 객체를 통해서 DB와 연결 시켜준후 방금 작성한 sql 쿼리문을 PreparedStatement로 전달시켜준다 그리고 그 결과 값을 ResultSet 통해 rs의 값을 넣어준다<br>
+![image](https://user-images.githubusercontent.com/96267331/186562001-be54806b-fa8e-4bd8-97d3-e08f7ce29113.png)<br>
+다음코드에서 테이블의 첫줄 헤드 라인의 값을 넣어주고 왼족의 버튼을 추가해준다 그리고 테이블 안에 있는 값은 while문에 조건을 rs.next()로 넣어줘 마지막 행까지 반복을 시켜 그 안에
+있는 결과값이 들어있는 rs가 문자열 상태로 저장되어있어 getString로 테이블의 값을 넣어준다
+
