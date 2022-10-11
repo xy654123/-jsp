@@ -51,3 +51,12 @@ Connection 객체를 통해서 DB와 연결 시켜준후 방금 작성한 sql �
 다음코드에서 테이블의 첫줄 헤드 라인의 값을 넣어주고 왼족의 버튼을 추가해준다 그리고 테이블 안에 있는 값은 while문에 조건을 rs.next()로 넣어줘 마지막 행까지 반복을 시켜 그 안에
 있는 결과값이 들어있는 rs가 문자열 상태로 저장되어있어 getString로 테이블의 값을 넣어준다
 
+# member_search 화면
+
+# member_search 코드
+
+# member_search_list 화면
+
+# member_search_list 코드
+
+# 
